@@ -2,6 +2,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axiosInstance from '../api/axiosInstance';
 
+// Action to fetch categories
 export const fetchCategories = createAsyncThunk(
   'categories/fetchCategories',
   async () => {
